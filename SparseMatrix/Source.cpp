@@ -24,7 +24,7 @@ private:
 };
 SparseMatrix SparseMatrix::Transpose()
 {
-	cout << "¤@¯ëµ}²¨¯x°}Âà¸m:" << endl;
+	cout << "ä¸€èˆ¬ç¨€ç–çŸ©é™£è½‰ç½®:" << endl;
 	SparseMatrix b(cols, rows, terms);
 	if (terms > 0) {
 		int currentB = 0;
@@ -45,7 +45,7 @@ SparseMatrix SparseMatrix::Transpose()
 }
 SparseMatrix SparseMatrix::FastTranspose()
 {
-	cout << "§Ö³tµ}²¨¯x°}Âà¸m:" << endl;
+	cout << "å¿«é€Ÿç¨€ç–çŸ©é™£è½‰ç½®:" << endl;
 	SparseMatrix b(cols, rows, terms);
 	if (terms > 0)
 	{
